@@ -86,3 +86,34 @@ a:hover {
   color: white;
   /* font-size: 100%; */
 }
+
+.my-carousel-price {
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4rem;
+  height: 4rem;
+  font-size: 120%;
+  border-radius: 0 0 5px 0;
+  background-color: #fb5849;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-carousel-info {
+  transform: translateY(80%);
+  background-color: #fb5849;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s ease-in-out;
+  padding-bottom: 0;
+}
+
+.my-carousel:hover .my-carousel-info {
+  transform: translateY(0);
+  transition: 0.5s ease-in-out;
+}
