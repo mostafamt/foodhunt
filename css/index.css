@@ -1,3 +1,9 @@
+@import url("https://fonts.cdnfonts.com/css/roboto");
+
+body {
+  font-family: "roboto", "Arial Narrow", Arial, sans-serif;
+}
+
 /* Nav */
 .my-navbar {
   padding: 1.2rem;
@@ -26,4 +32,40 @@
   color: white;
   font-size: 420%;
   text-align: center;
+}
+
+footer {
+  background-color: #fb5849;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+}
+
+.footer-icon {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #fb5849;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-left {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.footer-title {
+  font-size: 140%;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+  }
 }
