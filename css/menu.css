@@ -7,41 +7,20 @@ body {
 }
 
 /* Nav */
-nav {
-  background-color: rgb(0, 0, 0);
-  height: 80px;
-  width: 100%;
-}
-
-label.logo {
-  color: aliceblue;
-  font-size: 35px;
-  line-height: 80px;
-  padding: 0 100px;
-  font-weight: bold;
-}
-
-nav ul {
-  float: right;
-  margin-right: 70px;
-}
-
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 40px;
-}
-
-nav ul li a {
-  color: rgb(255, 252, 252);
-  font-size: 20px;
+.my-navbar {
+  padding: 1.2rem;
+  font-size: 120%;
   text-transform: uppercase;
 }
 
-a.active,
-a:hover {
-  background-color: rgb(127, 148, 135);
-  transition: 0.5s;
+.navbar-brand {
+  font-size: 150%;
+  font-weight: 700;
+}
+
+.my-navbar ul li {
+  margin-left: 3rem;
+  letter-spacing: 5px;
 }
 
 /* Carousel */
@@ -59,6 +38,7 @@ a:hover {
 
 .my-carousel {
   height: 30rem;
+  /* width:  */
   margin: 0 auto;
   margin-bottom: 3rem;
 }
@@ -116,4 +96,18 @@ a:hover {
 .my-carousel:hover .my-carousel-info {
   transform: translateY(0);
   transition: 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 900px) {
+  .my-menu {
+    width: 30rem;
+    margin: 2rem auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .my-menu {
+    width: 20rem;
+    margin: 2rem auto;
+  }
 }

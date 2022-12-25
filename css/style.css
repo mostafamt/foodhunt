@@ -15,43 +15,6 @@ body {
   background-size: 100% 100%;
 }
 
-nav {
-  background-color: rgb(0, 0, 0);
-  height: 80px;
-  width: 100%;
-}
-
-label.logo {
-  color: aliceblue;
-  font-size: 35px;
-  line-height: 80px;
-  padding: 0 100px;
-  font-weight: bold;
-}
-
-nav ul {
-  float: right;
-  margin-right: 70px;
-}
-
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 40px;
-}
-
-nav ul li a {
-  color: rgb(255, 252, 252);
-  font-size: 20px;
-  text-transform: uppercase;
-}
-
-a.active,
-a:hover {
-  background-color: rgb(127, 148, 135);
-  transition: 0.5s;
-}
-
 h1 {
   color: white;
   position: absolute;
