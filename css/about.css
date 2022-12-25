@@ -1,0 +1,42 @@
+.about {
+  padding: 3rem;
+  text-align: center;
+}
+.about > p {
+  text-transform: uppercase;
+  color: #fb5849;
+}
+
+.about-chefs {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-chefs-1,
+.about-chefs-2,
+.about-chefs-3 {
+  border: 1px solid black;
+  padding: 3px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .about-chefs {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.about-chefs-name {
+  font-weight: 700;
+  font-size: 120%;
+  margin-bottom: 0;
+}
+.about-chefs-title {
+  font-size: 80%;
+}
+
+.about-info {
+  margin: 1rem;
+}

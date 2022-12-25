@@ -6,36 +6,6 @@ body {
   background-size: 100% 100%;
 }
 
-/* Nav */
-.my-navbar {
-  padding: 1.2rem;
-  font-size: 120%;
-  text-transform: uppercase;
-}
-
-.navbar-brand {
-  font-size: 150%;
-  font-weight: 700;
-}
-
-.my-navbar ul li {
-  margin-left: 3rem;
-  letter-spacing: 5px;
-}
-
-/* Carousel */
-
-.my-menu {
-  width: 50rem;
-  margin: 2rem auto;
-}
-
-.item-title {
-  color: white;
-  font-size: 420%;
-  text-align: center;
-}
-
 .my-carousel {
   height: 30rem;
   /* width:  */
